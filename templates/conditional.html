@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>
+        This is my first conditional statements page , created by <span style="color:red">{{name}}</span> 
+    </h1>
+<h2>Below are the outputs based on condition</h2>
+{% if name %}
+
+<h3>this is me <span style="color:blue"><marquee>{{fullname}}</marquee></span></h3>
+{% endif %}
+<br><br>
+<h1>Based on lenth of name less one printing below</h1>
+{% if nick < full %}
+<h2> Nick name is {{name}}</h2>
+{% else %}
+<h2>This is full name {{fullname}}</h2>
+{% endif %}
+</center>
+</body>
+</html>
